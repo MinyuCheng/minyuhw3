@@ -1,14 +1,14 @@
 const org1_depts = [
  {
   name:'accounting',
-  children[
+  children:[
   { name: 'accounting payable', children:[]},
-  { name: 'accounting receivable', children[]},
+  { name: 'accounting receivable', children:[]},
   ]
  },
 {
  name:'finance',
- children[],
+ children:[],
 } 
 ]
 
