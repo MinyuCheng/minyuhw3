@@ -39,14 +39,14 @@ PrintDept(org1_depts);
 function PrintDept(depts) {
   let output = "<ul>";
 
-  output += `<li>${depts[0].name}</li>`;
+  output += `<li style="list-style-type:none;">${depts[0].name}</li>`;
 
   output += "<ul>";
   output += `<li>${depts[0].children[0].name}</li>`;
   output += `<li>${depts[0].children[1].name}</li>`;
   output += "</ul>";
 
-  output += `<li>${depts[1].name}</li>`;
+  output += `<li style="list-style-type:none;">${depts[1].name}</li>`;
   output += "</ul>";
 
   org1.innerHTML = output;
@@ -59,7 +59,7 @@ PrintDept2(org2_depts);
 function PrintDept2(depts) {
   let output = "<ul>";
 
-  output += `<li>${depts[0].name}</li>`;
+  output += `<li style="list-style-type:none;">${depts[0].name}</li>`;
 
   output += "<ul>";
   output += `<li>${depts[0].children[0].name}</li>`;
@@ -71,7 +71,7 @@ function PrintDept2(depts) {
 
   output += "</ul>";
 
-  output += `<li>${depts[1].name}</li>`;
+  output += `<li style="list-style-type:none;">${depts[1].name}</li>`;
   output += "<ul>";
   output += `<li>${depts[1].children[0].name}</li>`;
   output += "</ul>";

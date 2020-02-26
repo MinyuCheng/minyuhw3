@@ -1,0 +1,22 @@
+h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 60px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+div {
+  border: 5px solid green;
+  width: 550px;
+  height: fit-content;
+  text-align: left;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 530;
+}
