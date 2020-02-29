@@ -32,6 +32,9 @@ const org2_depts = [
   }
 ];
 
+//the recursive function might be run with have 'children' tag or not
+//need to check the logic
+
 const org1 = document.getElementById("org1");
 
 PrintDept(org1_depts);
